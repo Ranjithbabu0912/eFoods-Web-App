@@ -1,0 +1,90 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-item-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.food-item-card img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.item-popup-details {
+  margin-top: 20px;
+}
+
+.item-details {
+  text-align: center;
+}
+
+.item-details img {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+.food-item-controls button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.food-item-controls button:hover {
+  background-color: #45a049;
+}
+
+.close {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.btn-cart {
+    margin-top: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+}
